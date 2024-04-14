@@ -14,6 +14,9 @@ namespace PlaywrightTests;
         private IBrowser _browser;
         private IPage _page;
 
+        private string _email = "denes.jako@gmail.com";
+        private string _password = "Taxually_Test1";
+
         [SetUp]
         public async Task SetupAsync()
         {
@@ -32,7 +35,7 @@ namespace PlaywrightTests;
 
             _loginPage = new LoginPage(_page);
 
-            await _loginPage.PerformSignIn("denes.jako@gmail.com", "Taxually_Test1");
+            await _loginPage.PerformSignIn(_email, _password);
 
             await _page.WaitForNavigationAsync();
 

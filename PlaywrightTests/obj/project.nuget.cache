@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "mR5fJsNae32I96im3owZV48yR2XiDWlDzqMNGl+RmTkBtrKYxr6mnEmHCeGjPF8sR3NOnhdxyt3hESGM19qi3g==",
+  "dgSpecHash": "6AtgFhNUMEFxSCwQYhlD/WtEIUQ6hwhWcEilc3bR21RlhI/YXjLjP75+j96smOh6EblhQmBWMaOHZ1UawBfKXg==",
   "success": true,
-  "projectFilePath": "/Users/jakodenes/taxually_denesjako/PlaywrightTests/PlaywrightTests.csproj",
+  "projectFilePath": "/Users/jakodenes/playwtest/PlaywrightTests/PlaywrightTests.csproj",
   "expectedPackageFiles": [
     "/Users/jakodenes/.nuget/packages/coverlet.collector/6.0.0/coverlet.collector.6.0.0.nupkg.sha512",
     "/Users/jakodenes/.nuget/packages/microsoft.bcl.asyncinterfaces/6.0.0/microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",

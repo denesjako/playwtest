@@ -1697,11 +1697,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/jakodenes/taxually_denesjako/PlaywrightTests/PlaywrightTests.csproj",
+      "projectUniqueName": "/Users/jakodenes/playwtest/PlaywrightTests/PlaywrightTests.csproj",
       "projectName": "PlaywrightTests",
-      "projectPath": "/Users/jakodenes/taxually_denesjako/PlaywrightTests/PlaywrightTests.csproj",
+      "projectPath": "/Users/jakodenes/playwtest/PlaywrightTests/PlaywrightTests.csproj",
       "packagesPath": "/Users/jakodenes/.nuget/packages/",
-      "outputPath": "/Users/jakodenes/taxually_denesjako/PlaywrightTests/obj/",
+      "outputPath": "/Users/jakodenes/playwtest/PlaywrightTests/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/jakodenes/.nuget/NuGet/NuGet.Config"

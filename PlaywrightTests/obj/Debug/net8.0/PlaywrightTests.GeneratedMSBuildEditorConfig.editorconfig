@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = PlaywrightTests
-build_property.ProjectDir = /Users/jakodenes/taxually_denesjako/PlaywrightTests/
+build_property.ProjectDir = /Users/jakodenes/playwtest/PlaywrightTests/
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
