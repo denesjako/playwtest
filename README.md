@@ -9,4 +9,4 @@ Instructions:
 Observations:
 -------------------------------
 - Dropdown elements that allows text inputs has no data-unique-ids or ids on the input tag.
-- ng-select tags are not compatible with Playwright's SelectAsync() method, it is targeting select tags only.
+- ng-select tags were not identified with Playwright's SelectAsync() method, it is targeting select tags only.
