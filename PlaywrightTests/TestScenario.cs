@@ -14,8 +14,11 @@ namespace PlaywrightTests;
         private IBrowser _browser;
         private IPage _page;
 
-        private string _email = "denes.jako@gmail.com";
-        private string _password = "Taxually_Test1";
+        //Add email credential here
+        private string _email = "";
+
+        //Add password here
+        private string _password = "";
 
         [SetUp]
         public async Task SetupAsync()
