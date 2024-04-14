@@ -32,28 +32,21 @@ namespace PlaywrightTests;
 
         public static Credentials GetCredentials()
         {
-                // Path to the JSON configuration file
                 string configFile = "config.json";
-
-                // Check if the config file exists
                 if (!File.Exists(configFile))
                 {
                     Console.WriteLine("Config file not found.");
                 }
 
-                // Read JSON data from the config file
                 string json = File.ReadAllText(configFile);
 
-                // Deserialize JSON data into a Credentials object
                 Credentials? credentials = JsonConvert.DeserializeObject<Credentials>(json);
 
-                // Check if credentials are null
                 if (credentials == null)
                 {
                     Console.WriteLine("Failed to read credentials from the config file.");
                 }
 
-                // Use the credentials
                 return credentials;
         }
 
