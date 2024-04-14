@@ -15,10 +15,10 @@ namespace PlaywrightTests;
         private IPage _page;
 
         //Add email credential here
-        private string _email = "";
+        private string _email = "denes.jako@gmail.com";
 
         //Add password here
-        private string _password = "";
+        private string _pass = "Taxually_Test1";
 
         [SetUp]
         public async Task SetupAsync()
@@ -38,7 +38,7 @@ namespace PlaywrightTests;
 
             _loginPage = new LoginPage(_page);
 
-            await _loginPage.PerformSignIn(_email, _password);
+            await _loginPage.PerformSignIn(_email, _pass);
 
             await _page.WaitForNavigationAsync();
 
